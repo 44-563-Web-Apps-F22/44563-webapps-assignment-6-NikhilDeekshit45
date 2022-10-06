@@ -12,7 +12,7 @@
        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     </head>
     <body>
-        
+        <div class="container p-3 my-3 bg-info text-dark">
         <h1> Nikhil computes discounts</h1>
         <div class="container" style="margin-top: 200px; margin-left:300px">
             <form>
@@ -24,6 +24,8 @@
                 <input type="button" class="btn btn-secondary" type="button" onclick="discount()" value="Apply discount">
             </form>
             <p id="result">The result will be displayed </p>
+            </div>
+            </div>
                 <script>
                     function discount(){
                         result=""
@@ -38,6 +40,7 @@
         }
                     
                 </script>
+                <div class="container p-3 my-3 bg-info text-dark">
                 <form>
                     <input type="radio" onclick="chooseOp()" id="times" name="topping"   
                     value="times">
@@ -50,6 +53,7 @@
                     <label for="**">**</label></br>
                 </form>
                 <p id="res">Results</p>
+                </div>
                 <script>
                      function chooseOp(){
                      bas = document.getElementById("base").value
